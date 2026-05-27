@@ -1,0 +1,39 @@
+# ─── Model Weights ───────────────────────────────────────────
+# Hapus baris *.pt di bawah ini kalau ukuran best_vehicle.pt < 100MB
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ─── Dataset ─────────────────────────────────────────────────
+vehicle-detection/
+datasets/
+data/
+
+# ─── YOLO Training Results ───────────────────────────────────
+runs/
+training_artifacts/
+
+# ─── Gambar hasil training (ada di training_artifacts) ───────
+label_distribution.png
+prediction_results.png
+sample_data.png
+
+# ─── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+.venv/
+
+# ─── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── OS ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Streamlit ───────────────────────────────────────────────
+.streamlit/secrets.toml
