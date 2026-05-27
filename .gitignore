@@ -1,6 +1,4 @@
 # ─── Model Weights ───────────────────────────────────────────
-# Hapus baris *.pt di bawah ini kalau ukuran best_vehicle.pt < 100MB
-*.pt
 *.pth
 *.onnx
 *.engine
